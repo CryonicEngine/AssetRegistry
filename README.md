@@ -1,18 +1,18 @@
 # AssetRegistry
 
 **Official Asset Registry for Cryonic Engine**  
-A central listing of assets for Cryonic Engine, providing easy access to resources, tools, and updates compatible with the engine.
+A central listing of assets for Cryonic Engine, providing easy access to assets compatible with the engine.
 
 ## Overview
 
-The AssetRegistry acts as the main hub for locating, downloading, and managing assets specifically designed for Cryonic Engine. This repository includes a JSON file listing all available assets, which the engine’s Asset Manager can access to automatically update and integrate new resources.
+The AssetRegistry acts as the main hub for locating, downloading, and managing assets specifically designed for Cryonic Engine. This repository includes a JSON file listing all supported assets, which the engine’s Asset Manager can access to automatically update and integrate assets.
 
 ## How It Works
 
 The `assets.json` file in this repository contains a structured list of available assets. Each entry includes:
 - **Name**: The name of the asset.
 - **URL**: A link to the asset’s GitHub repository.
-- **Category**: The category the asset belongs to. Current categories are General, Scripts, Textures, Models, Environments, Audio, GUI, Templates, and Tools.
+- **Category**: The category the asset belongs to. The Categories are General, Scripts, Textures, Models, Environments, Audio, GUI, Templates, and Tools.
 
 By pulling data from this JSON file, Cryonic Engine can retrieve supported assets and be able to install them to projects.
 
