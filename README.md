@@ -21,7 +21,7 @@ By pulling data from this JSON file, Cryonic Engine can retrieve supported asset
 ```json
 [
     {
-        "name": "Basic Asset",
+        "name": "Example Asset",
         "url": "https://github.com/YourUsername/ExampleAsset",
         "category": "General"
     }
@@ -29,10 +29,11 @@ By pulling data from this JSON file, Cryonic Engine can retrieve supported asset
 ```
 
 ## Adding New Assets
-Create a GitHub repository for the new asset.<br/>
-Add a asset_manifest.json file in the asset repository containing information such as version, description, supported versions, etc.
-Update asset_registry.json in this repository to include the new asset with its name, repository URL, and manifest URL.
-Submit a pull request if you’re a contributor, or contact the repository owner for inclusion.
+1. Create a GitHub repository for the new asset.<br/>
+2. Add a manifest.json file and include all relevant asset information. You can refer to the [AI Pathfinding manifest file](https://github.com/CryonicEngine/AI-Pathfinding/blob/main/assets.json) as an example.<br/>
+3. Fork this GitHub repository.<br/>
+4. Update assets.json to include the new asset at the bottom.<br/>
+5. Submit a pull request.<br/>
 
 ## License
 This registry is licensed under the [GPL-3.0 License](LICENSE). Refer to individual asset repositories for their respective licenses.
