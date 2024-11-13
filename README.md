@@ -28,15 +28,12 @@ By pulling data from this JSON file, Cryonic Engine can retrieve supported asset
 ]
 ```
 
-## Adding New Assets
+## Adding New Assets / Contributing
 1. Create a GitHub repository for the new asset.<br/>
-2. Add a manifest.json file and include all relevant asset information. You can refer to the [AI Pathfinding manifest file](https://github.com/CryonicEngine/AI-Pathfinding/blob/main/assets.json) as an example.<br/>
+2. Add a manifest.json file and include all relevant asset information. You can refer to the [AI Pathfinding manifest file](https://github.com/CryonicEngine/AI-Pathfinding/blob/main/manifest.json) as an example.<br/>
 3. Fork this GitHub repository.<br/>
 4. Update assets.json to include the new asset at the bottom.<br/>
 5. Submit a pull request.<br/>
 
 ## License
 This registry is licensed under the [GPL-3.0 License](LICENSE). Refer to individual asset repositories for their respective licenses.
-
-## Contributing
-We welcome contributions! If you’d like to add an asset to the registry or update an existing one, please follow the steps under “Adding New Assets” and submit a pull request. For major updates or questions, please open an issue.
