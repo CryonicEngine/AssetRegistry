@@ -28,8 +28,8 @@ By pulling data from this JSON file, Cryonic Engine can retrieve supported asset
 ]
 ```
 
-## Adding New Assets<br/>
-Create a GitHub repository for the new asset.
+## Adding New Assets
+Create a GitHub repository for the new asset.<br/>
 Add a asset_manifest.json file in the asset repository containing information such as version, description, supported versions, etc.
 Update asset_registry.json in this repository to include the new asset with its name, repository URL, and manifest URL.
 Submit a pull request if you’re a contributor, or contact the repository owner for inclusion.
