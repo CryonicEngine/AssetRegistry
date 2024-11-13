@@ -2,6 +2,7 @@
     {
         "name": "AI Pathfinding",
         "url": "https://github.com/CryonicEngine/AI-Pathfinding",
-        "category": "Scripts"
+        "category": "Scripts",
+        "Author": "Cryonic"
     }
 ]
