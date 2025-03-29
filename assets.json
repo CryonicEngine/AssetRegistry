@@ -5,5 +5,12 @@
         "description": "AI pathfinding/navigation system using the A* search algorithm",
         "url": "https://github.com/CryonicEngine/AI-Pathfinding",
         "category": "Scripts"
+    },
+    {
+        "name": "Splines",
+        "author": "Cryonic Engine",
+        "description": "A flexible 2D and 3D spline system for path creation",
+        "url": "https://github.com/CryonicEngine/Splines",
+        "category": "Scripts"
     }
 ]
